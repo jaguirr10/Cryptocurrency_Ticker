@@ -1,0 +1,164 @@
+
+      * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance:none;
+	-webkit-text-size-adjust: none; 	
+}
+
+
+body 
+{
+  background: rgb(2,0,36);
+background: linear-gradient( rgba(2,0,36,1) 0%, rgba(45,190,183,1) 100%, rgba(0,212,255,0.9755252442773985) 100%);
+
+}
+
+body {
+  font-family: arial
+}
+
+.wrapper {
+    margin: 50px auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+.col {
+  display:inline-block;
+  width: 22%;
+  margin: 1%;
+  text-align:center;
+  padding-top: 28px;
+  
+  
+}
+
+h1 {
+  font-size: 40px;
+  color:#fff;
+  display:block;
+  border-radius: 50%;
+  width: 90px;
+  height:90px;
+  padding: 20px;
+  margin:0 auto;
+}
+
+h4 {
+  margin:10px 0;
+}
+
+.bitcoin h1 {
+  background: #f7931a;
+}
+
+.litecoin h1 {
+  background: #bebebe;
+}
+
+.ethereum h1 {
+  background: #454a75;
+}
+
+.ripple h1 {
+  background:#0077be ;
+  font-size:26px;
+  text-align:center;
+  line-height: 50px;
+}
+
+ #bcc h1 {
+  background: green;
+}
+
+#eos1 h1 {
+  background: #000;
+}
+
+#ca h1 {
+  background: #C0C0C0;
+}
+
+#ST h1 {
+  background: #008080;
+}
+
+#mn h1 {
+  background: #FFA500;
+}
+
+#tr h1 {
+  background: #A9A9A9;
+}
+
+
+#price, #bprice, #eprice, #rprice, #bcprice, #eosprice, #caprice, #stprice,#mnprice, #trprice{
+  font-size: 20px;
+}
+
+.chan {
+  margin: 20px 0 0 0;
+  padding: 10px;
+  background: #eee;
+  font-size: 12px;
+}
+
+.center 
+{
+  margin-left: 190px;
+}
+
+.c1 
+{
+  margin-left: 435px;
+  
+}
+
+
+
+
+
+
+
+.ht {
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+
+}
+
+.hht {
+    background: -webkit-linear-gradient(#0000, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+
+}
+
+
+/*media queries */
+
+@media (min-width: 1025px) {
+  
+  #tr{
+  margin-left: 389px;
+  }
+  
+  
+   
+  
+}
+
+
+
+  
+   
+  
+}
+
+    
+
+  

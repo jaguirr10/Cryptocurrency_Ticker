@@ -1,0 +1,165 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	
+	<!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+	
+	
+
+  
+  
+  <title>Cryptocurrency Ticker</title>
+  
+
+  
+
+
+</head>
+
+<body >
+    
+	  <div class="row" >
+	     <div class =" ht col s12 m12 l12 xl12"
+	     <h1 class = >Cryptocurrency Ticker </h1>
+		 
+	    </div>
+	</div>
+<div class="container  z-depth-5  grey lighten-5 " id ="A">
+  <div class="row  center"  >
+	<div class="col bitcoin s12 m12 l3 xl3 z-depth-3">
+	  <h1>Ƀ</1>
+	  <h4>Bitcoin</h4>
+	  $<span id="bprice"></span>
+	   <div class="">1 Hour Change:&nbsp <span id="b1hchange"></span>%</div>
+	  <div class="">24 Hour Change:&nbsp <span id="b24hchange"></span>%</div>
+	  <div class="">7 Day Change:&nbsp <span id="b7dchange"></span>%</div>
+	 
+	   
+	  
+	</div>
+	<div class="col litecoin s12 m12 l3 xl3 z-depth-3">
+	  <h1>Ł</1>
+	  <h4>Litecoin</h4>
+	  $<span id="price"></span>
+	  <div class="">1 Hour Change:&nbsp <span id="1hchange"></span>%</div>
+	  <div class="">24 Hour Change: &nbsp <span id="24hchange"></span>%</div>
+	  <div class="">7 Day Change:&nbsp <span id="7dchange"></span>%</div>
+	</div>
+	<div class="col ethereum s12 m12 l3 xl3 z-depth-3">
+	  <h1>Ξ</1>
+	  <h4>Ethereum</h4>
+	  $<span id="eprice"></span>
+	  <div class="">1 Hour Change:&nbsp <span id="e1hchange"></span>%</div>
+	  <div class="">24 Hour Change:&nbsp <span id="echange"></span>%</div>
+	  <div class="">7 Day Change:&nbsp <span id="e7dchange"></span>%</div>
+	  
+	</div>
+  </div> <!-- end of 1st row -->
+     <div class="row center "> 
+	  <div class="col ripple  s12 m12 xl3 z-depth-3  ">
+	  <h1>XRP</h1>
+	  <h4>Ripple</h4>
+	  $<span id="rprice"></span>
+	   <div class="">1 Hour Change:&nbsp <span id="r1hchange"></span>%</div>
+	  <div class="">24 Hour Change:&nbsp <span id="rchange"></span>%</div>
+	  <div class="">7 Day Change:&nbsp <span id="r7dchange"></span>%</div>
+	  
+	 </div>
+	 <div class="col ripple s12 m12 xl3 z-depth-3" id = "bcc">
+	  <h1>BCH</h1>
+	  <h4>Bitcoin Cash</h4>
+	  $<span id="bcprice"></span>
+	  <div class="">1 Hour Change:&nbsp <span id="bc1hchange"></span>%</div>
+	  <div class="">24 Hour Change:&nbsp <span id="bcchange"></span>%</div>
+	  <div class="">7 Day Change:&nbsp <span id="bc7dchange"></span>%</div>
+	  
+	 </div>
+	 <div class="col ripple  s12  m12  xl3 z-depth-3" id = "eos1">
+	  <h1>EOS</h1>
+	  <h4>EOS</h4>
+	  $<span id="eosprice"></span>
+	  <div class="">1 Hour Change:&nbsp <span id="eos1hchange"></span>%</div>
+	  <div class="">24 Hour Change:&nbsp <span id="eoschange"></span>%</div>
+	  <div class="">7 Day Change:&nbsp <span id="eos7dchange"></span>%</div>
+	 </div>
+	</div> <!-- end of 2nd row -->
+	  <div class="row center"> 
+	   <div class="col ripple s12 m12 xl3 z-depth-3" id = "ca">
+		<h1>ADA</1>
+		<h4>Cardano</h4>
+	    $<span id="caprice"></span>
+		<div class="">1 Hour Change:&nbsp <span id="ca1hchange"></span>%</div>
+	   <div class="">24 Hour Change:&nbsp <span id="cachange"></span>%</div>
+	   <div class="">7 Day Change:&nbsp <span id="ca7dchange"></span>%</div>
+	   
+	 </div>
+	 <div class="col ripple s12  m12 xl3 z-depth-3" id = "ST">
+		  <h1>XLM</h1>
+		  <h4>Stellar</h4>
+		  $<span id="stprice"></span>
+		  <div class="">1 Hour Change:&nbsp <span id="st1hchange"></span>%</div>
+		  <div class="">24 Hour Change:&nbsp <span id="stchange">%</span>
+		  <div class="">7 Day Change:&nbsp <span id="st7dchange"></span>%</div>
+		</div>
+	 </div>
+	 <div class="col ripple s12 m12 xl3 z-depth-3" id = "mn">
+	  <h1 >XMR</h1>
+	  <h4>Monero</h4>
+	  $<span id="mnprice"></span>
+	  <div class="">1 Hour Change:&nbsp <span id="mn1hchange"></span>%</div>
+	  <div class="">24 Hour Change:&nbsp <span id="mnchange"></span>%</div>
+	  <div class="">7 Day Change:&nbsp <span id="mn7dchange"></span>%</div>
+	  
+	 </div>
+	</div> <!-- end of 3rd row -->
+	
+	<div class="row " > 
+	 <div class="col  ripple s12 m12 l3 xl3 z-depth-3" style = "padding-left: 10px; " id = "tr">
+	  <h1>TRX</1>
+	  <h4>Tron</h4>
+	  $<span id="trprice"></span>
+	    <div >1 Hour Change:&nbsp <span id="tr1hchange"></span>%</div>
+	   <div >24 Hour Change:&nbsp <span id="trchange"></span>%</div>
+	   <div >7 Day Change:&nbsp <span id="tr7dchange"></span>%</div>
+	</div> 
+	</div> <!-- end of 4th row -->
+	
+	
+  </div> <!--  end of Wrapper/Container -->
+  <h2 class = "hht" style = "text-align:center"> Data courtesy of coinmarketcap.com </h2>
+</div>
+
+
+
+
+
+  
+  
+  
+</div>
+    
+<!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='main.js'></script>
+
+  
+
+    
+
+  
+  
+
+</body>
+
+</html>
+ 
